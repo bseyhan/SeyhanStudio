@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seyhan Studio | Webutvikling & Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <a href="#" class="logo">
+            <div class="logo-mark">S</div>
+            <span class="logo-text">Seyhan Studio</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#prosjekter">Prosjekter</a></li>
+            <li><a href="#tjenester">Tjenester</a></li>
+            <li><a href="#prosess">Prosess</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+        <a href="#kontakt" class="nav-cta">
+            Start prosjekt
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+        </a>
+        <button class="mobile-menu-btn" aria-label="Meny">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-grid">
+            <div class="hero-content">
+                <div class="hero-badge fade-up">
+                    <span class="dot"></span>
+                    Tilgjengelig for nye prosjekter
+                </div>
+                <h1 class="fade-up">Vi bygger nettsider som <span class="accent">driver vekst</span></h1>
+                <p class="hero-description fade-up">
+                    Seyhan Studio hjelper bedrifter med å skape moderne, raske og 
+                    konverterende nettsider. Fra design til lansering.
+                </p>
+                <div class="hero-buttons fade-up">
+                    <a href="#prosjekter" class="btn-primary">
+                        Se våre arbeider
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#kontakt" class="btn-secondary">
+                        Kontakt oss
+                    </a>
+                </div>
+                <div class="hero-stats fade-up">
+                    <div class="stat">
+                        <span class="stat-value">2+</span>
+                        <span class="stat-label">Prosjekter levert</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">100%</span>
+                        <span class="stat-label">Fornøyde kunder</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">&lt;24t</span>
+                        <span class="stat-label">Responstid</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual fade-up">
+                <div class="browser-mockup">
+                    <div class="browser-header">
+                        <span class="browser-dot red"></span>
+                        <span class="browser-dot yellow"></span>
+                        <span class="browser-dot green"></span>
+                        <span class="browser-url">nordiskauto.no</span>
+                    </div>
+                    <div class="browser-content">
+                        <img src="assets/images/nordiskauto.png" alt="Prosjekt preview">
+                    </div>
+                </div>
+                <div class="floating-card">
+                    <div class="floating-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <div class="floating-text">
+                        <span class="floating-title">Siste prosjekt levert</span>
+                        <span class="floating-subtitle">Nordisk Auto AS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="prosjekter">
+        <div class="section-header fade-up">
+            <p class="section-label">Portefølje</p>
+            <h2 class="section-title">Utvalgte prosjekter</h2>
+            <p class="section-description">
+                Her er noen av prosjektene vi har levert. Hver nettside er 
+                skreddersydd for kundens mål og målgruppe.
+            </p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card fade-up">
+                <div class="project-image">
+                    <img src="assets/images/nordiskauto.png" alt="Nordisk Auto">
+                </div>
+                <div class="project-content">
+                    <span class="project-number">Prosjekt 01</span>
+                    <h3 class="project-title">Nordisk Auto AS</h3>
+                    <p class="project-description">
+                        Moderne bedriftsnettside for bruktbilforhandler i Vormsund. 
+                        Integrasjon med FINN.no for automatisk visning av bilutvalg, 
+                        samt fokus på tillit og konvertering.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Responsivt</span>
+                        <span class="tech-tag">FINN API</span>
+                        <span class="tech-tag">SEO</span>
+                        <span class="tech-tag">Kontaktskjema</span>
+                    </div>
+                    <a href="https://www.nordiskauto.no/" target="_blank" rel="noopener" class="project-link">
+                        Besøk nettside
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 17L17 7M17 7H7M17 7v10"/>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card fade-up">
+                <div class="project-image">
+                    <img src="assets/images/smertesenteret.png" alt="Smertesenteret">
+                </div>
+                <div class="project-content">
+                    <span class="project-number">Prosjekt 02</span>
+                    <h3 class="project-title">Smertesenteret</h3>
+                    <p class="project-description">
+                        Profesjonell nettside for legepraksis spesialisert på 
+                        smertebehandling og regenerativ medisin. Integrert 
+                        bookingsystem og fokus på å formidle kompetanse.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">WordPress</span>
+                        <span class="tech-tag">Online booking</span>
+                        <span class="tech-tag">Medisinsk</span>
+                        <span class="tech-tag">Anmeldelser</span>
+                    </div>
+                    <a href="https://smertesenteret.no/" target="_blank" rel="noopener" class="project-link">
+                        Besøk nettside
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 17L17 7M17 7H7M17 7v10"/>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="tjenester">
+        <div class="section-header fade-up">
+            <p class="section-label">Tjenester</p>
+            <h2 class="section-title">Det vi leverer</h2>
+            <p class="section-description">
+                Komplette løsninger fra konsept til ferdig produkt.
+            </p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card fade-up">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2"/>
+                        <path d="M3 9h18"/>
+                        <path d="M9 21V9"/>
+                    </svg>
+                </div>
+                <h3 class="service-title">Webdesign</h3>
+                <p class="service-description">
+                    Skreddersydd design som reflekterer merkevaren din og 
+                    konverterer besøkende til kunder.
+                </p>
+            </div>
+
+            <div class="service-card fade-up">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="16 18 22 12 16 6"/>
+                        <polyline points="8 6 2 12 8 18"/>
+                    </svg>
+                </div>
+                <h3 class="service-title">Utvikling</h3>
+                <p class="service-description">
+                    Rask og sikker kode bygget med moderne teknologier 
+                    og beste praksis.
+                </p>
+            </div>
+
+            <div class="service-card fade-up">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="M21 21l-4.35-4.35"/>
+                    </svg>
+                </div>
+                <h3 class="service-title">SEO</h3>
+                <p class="service-description">
+                    Optimalisering som sørger for at kundene finner deg 
+                    når de søker.
+                </p>
+            </div>
+
+            <div class="service-card fade-up">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="5" y="2" width="14" height="20" rx="2"/>
+                        <line x1="12" y1="18" x2="12.01" y2="18"/>
+                    </svg>
+                </div>
+                <h3 class="service-title">Responsivt</h3>
+                <p class="service-description">
+                    Perfekt visning på alle enheter — mobil, nettbrett 
+                    og desktop.
+                </p>
+            </div>
+
+            <div class="service-card fade-up">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                        <path d="M2 17l10 5 10-5"/>
+                        <path d="M2 12l10 5 10-5"/>
+                    </svg>
+                </div>
+                <h3 class="service-title">CMS</h3>
+                <p class="service-description">
+                    Brukervennlige løsninger så du kan oppdatere 
+                    innholdet selv.
+                </p>
+            </div>
+
+            <div class="service-card fade-up">
+                <div class="service-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                    </svg>
+                </div>
+                <h3 class="service-title">Ytelse</h3>
+                <p class="service-description">
+                    Lynraske nettsider som gir bedre brukeropplevelse 
+                    og høyere ranking.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section id="prosess">
+        <div class="section-header fade-up">
+            <p class="section-label">Prosess</p>
+            <h2 class="section-title">Slik jobber vi</h2>
+            <p class="section-description">
+                En strukturert tilnærming som sikrer kvalitet og forutsigbarhet.
+            </p>
+        </div>
+
+        <div class="process-grid">
+            <div class="process-card fade-up">
+                <div class="process-number">01</div>
+                <h3 class="process-title">Oppstartsmøte</h3>
+                <p class="process-description">
+                    Vi kartlegger mål, målgruppe og ønsker for prosjektet.
+                </p>
+            </div>
+            <div class="process-card fade-up">
+                <div class="process-number">02</div>
+                <h3 class="process-title">Design</h3>
+                <p class="process-description">
+                    Vi lager designforslag du kan gi tilbakemelding på.
+                </p>
+            </div>
+            <div class="process-card fade-up">
+                <div class="process-number">03</div>
+                <h3 class="process-title">Utvikling</h3>
+                <p class="process-description">
+                    Vi bygger nettsiden med fokus på kvalitet og hastighet.
+                </p>
+            </div>
+            <div class="process-card fade-up">
+                <div class="process-number">04</div>
+                <h3 class="process-title">Lansering</h3>
+                <p class="process-description">
+                    Testing, optimalisering og publisering av ferdig nettside.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="kontakt">
+        <div class="contact-grid">
+            <div class="contact-content fade-up">
+                <h2>La oss snakke om ditt <span class="accent">neste prosjekt</span></h2>
+                <p>
+                    Har du en idé eller et prosjekt i tankene? Vi er alltid 
+                    interessert i å høre om nye muligheter. Ta kontakt for 
+                    en uforpliktende prat.
+                </p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">E-post</span>
+                            <span class="contact-value">
+                                <a href="mailto:bahattin.seyhan@gmail.com">bahattin.seyhan@gmail.com</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Telefon</span>
+                            <span class="contact-value">
+                                <a href="tel:+4745033284">+47 450 33 284</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Lokasjon</span>
+                            <span class="contact-value">Oslo-Lørenskog-området</span>
+                            <span class="contact-value" style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">Leverer over hele Norge • Remote</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form fade-up">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Navn</label>
+                        <input type="text" id="name" class="form-input" placeholder="Ditt navn" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="email">E-post</label>
+                        <input type="email" id="email" class="form-input" placeholder="din@epost.no" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="project-type">Type prosjekt</label>
+                    <select id="project-type" class="form-select">
+                        <option value="">Velg type</option>
+                        <option value="bedrift">Bedriftsnettside</option>
+                        <option value="nettbutikk">Nettbutikk</option>
+                        <option value="landing">Landingsside</option>
+                        <option value="redesign">Redesign</option>
+                        <option value="annet">Annet</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="message">Melding</label>
+                    <textarea id="message" class="form-textarea" placeholder="Fortell oss om prosjektet ditt..." required></textarea>
+                </div>
+                <button type="submit" class="form-submit">
+                    Send henvendelse
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo-mark">S</div>
+                <span class="logo-text">Seyhan Studio</span>
+            </div>
+            <span class="footer-text">© 2025 Seyhan Studio. Alle rettigheter reservert.</span>
+            <div class="footer-social">
+                <a href="#" aria-label="LinkedIn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                </a>
+                <a href="#" aria-label="GitHub">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
