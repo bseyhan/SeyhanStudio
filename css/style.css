@@ -7,8 +7,9 @@
     --text-secondary: #9ca3b0;
     --text-muted: #6b7280;
     --accent: #3b82f6;
-    --accent-bright: #60a5fa;
-    --accent-glow: rgba(59, 130, 246, 0.15);
+    --accent-secondary: #8b5cf6;
+    --accent-bright: #a78bfa;
+    --accent-glow: rgba(139, 92, 246, 0.2);
     --border: #2a2f3a;
     --border-light: #363c4a;
     --success: #10b981;
@@ -111,7 +112,7 @@ nav.scrolled {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background: var(--accent);
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-secondary) 100%);
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -121,8 +122,9 @@ nav.scrolled {
 }
 
 .nav-cta:hover {
-    background: var(--accent-bright);
+    background: linear-gradient(135deg, var(--accent-secondary) 0%, var(--accent) 100%);
     transform: translateY(-1px);
+    box-shadow: 0 8px 20px var(--accent-glow);
 }
 
 /* Hero Section */
@@ -208,7 +210,7 @@ nav.scrolled {
     align-items: center;
     gap: 0.5rem;
     padding: 1rem 1.75rem;
-    background: var(--accent);
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-secondary) 100%);
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -218,7 +220,7 @@ nav.scrolled {
 }
 
 .btn-primary:hover {
-    background: var(--accent-bright);
+    background: linear-gradient(135deg, var(--accent-secondary) 0%, var(--accent) 100%);
     transform: translateY(-2px);
     box-shadow: 0 10px 30px var(--accent-glow);
 }
@@ -782,7 +784,7 @@ section {
 .form-submit {
     width: 100%;
     padding: 1rem 2rem;
-    background: var(--accent);
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-secondary) 100%);
     color: white;
     border: none;
     border-radius: 8px;
@@ -794,7 +796,7 @@ section {
 }
 
 .form-submit:hover {
-    background: var(--accent-bright);
+    background: linear-gradient(135deg, var(--accent-secondary) 0%, var(--accent) 100%);
     transform: translateY(-2px);
     box-shadow: 0 10px 30px var(--accent-glow);
 }
